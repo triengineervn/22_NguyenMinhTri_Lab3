@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Entypo } from '@expo/vector-icons';
 import { TouchableOpacity } from 'react-native-web';
 
-export default function Screen1() {
+export default function Screen2() {
   return (
     <View style={styles.primary}>
       <View style={styles.container}>
@@ -28,6 +28,7 @@ export default function Screen1() {
             </View>
           </TouchableOpacity>
         </View>
+        <Text style={styles.txtStyle}>HOW WE WORK?</Text>
       </View>
     </View>
   );
@@ -37,11 +38,11 @@ const styles = StyleSheet.create({
   primary: {
     width: "100%",
     height: "100%",
-    backgroundColor: "#00CCF9"
+    backgroundColor: "#cbf4f6"
   },
   container: {
     flex: 1,
-    backgroundColor: '#00CCF9',
+    backgroundColor: '#cbf4f6',
     alignItems: 'center',
     justifyContent: 'center',
     marginHorizontal: 29,
